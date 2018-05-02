@@ -1,6 +1,10 @@
 class EmailParser
 attr_accessor :email_list
 
+def initialized(email_list)
+  @email_list
+end 
+
 def parse
 
 email_list.split(/\,\s|\"\s\s|\"\,|\"|\s/)
