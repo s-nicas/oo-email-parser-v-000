@@ -6,9 +6,8 @@ def initialize(emails)
 end
 
 def parse
-  # EmailParser.new(email_list)
 
-email_list.split(/\,\s|\"\s\s|\"\,|\"|\s/)
+email.split(/\,\s|\"\s\s|\"\,|\"|\s/)
 end
 
 end
