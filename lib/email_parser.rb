@@ -1,5 +1,5 @@
 class EmailParser
-attr_accessor :email_list :parser
+attr_accessor :email_list, :parser
 
 def initialize
   parser = EmailParser.new(emails)
