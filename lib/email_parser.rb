@@ -11,6 +11,9 @@ def parse
   emails_array.each do |email|
     if !emails_without_duplicates.include?(email)
       emails_without_duplicates.push(email)
+    end 
+  end 
+  emails_without_duplicates
 end
 
 end
