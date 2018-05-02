@@ -2,6 +2,8 @@ class EmailParser
 attr_accessor :email_list
 
 parse(email_list)
+
+
 end 
 
 end
