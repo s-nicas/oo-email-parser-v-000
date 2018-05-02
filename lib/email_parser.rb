@@ -3,8 +3,8 @@ attr_accessor :email_list
 
 parse(email_list)
 
-
-end 
+email_list.split(/\w[m]\s|\w[m]\,|\w[m]\"/)
+end
 
 end
 
